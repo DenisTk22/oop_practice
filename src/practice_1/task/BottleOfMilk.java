@@ -1,4 +1,4 @@
-package ru.geekbrains;
+package practice_1.task;
 
 public class BottleOfMilk extends Product {
 
@@ -17,8 +17,7 @@ public class BottleOfMilk extends Product {
 
     @Override
     public String displayInfo() {
-        //return super.displayInfo();
-        return String.format("%s - %s - %f - объем: %d", brand, name, price, volume);
+        return String.format("%s - %s - %f - volume: %d", brand, name, price, volume);
 
     }
 

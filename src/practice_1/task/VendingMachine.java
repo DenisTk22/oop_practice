@@ -1,4 +1,4 @@
-package practice_1;
+package practice_1.task;
 
 import java.util.List;
 
@@ -21,5 +21,14 @@ public class VendingMachine {
         return null;
     }
 
-
+    public Chocolate getChocolate(String brand, String name){
+        for (Product product: products) {
+            if (product instanceof Chocolate){
+                Chocolate choco = ((Chocolate)product);
+                if (choco.brand.equals(brand) && choco.name.equals(name))
+                    return choco;
+            }
+        }
+        return null;
+    }
 }

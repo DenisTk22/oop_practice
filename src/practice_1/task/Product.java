@@ -1,4 +1,4 @@
-package practice_1;
+package practice_1.task;
 
 public class Product {
 
@@ -13,7 +13,7 @@ public class Product {
     //mutator
     public void setPrice(double price){
         if (price <= 0)
-            throw new RuntimeException("Некорректная сумма товара.");
+            throw new RuntimeException("Incorrect product amount.");
         this.price = price;
     }
 
@@ -34,21 +34,9 @@ public class Product {
         this.brand = brand;
     }
 
-    int param1;
-    String param2;
-    boolean param3;
-    String param4;
-
-    {
-        System.out.println("Initializer");
-        param1 = 100;
-        param2 = "...";
-        param3 = true;
-        param4 = "====";
-    }
 
     public Product(){
-        this("Продукт");
+        this("ProductName");
     }
 
     public Product(String name){
@@ -59,19 +47,19 @@ public class Product {
     }
 
     public Product(String brand, String name, double price){
-        System.out.println("Constructor");
+        //System.out.println("Constructor");
         if (brand.length() < 3)
             this.brand = "Noname";
         else
             this.brand = brand;
 
         if (name.length() < 3)
-            this.name = "Товар";
+            this.name = "Item";
         else
             this.name = name;
 
         if (price <= 0)
-            throw new RuntimeException("Некорректная сумма товара.");
+            throw new RuntimeException("Incorrect product amount.");
         this.price = price;
     }
 
