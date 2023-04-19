@@ -31,4 +31,14 @@ public class VendingMachine {
         }
         return null;
     }
+
+    public Product getProduct(String name){
+        for (Product product: products) {
+            if (product != null){
+                Product goods = ((Product) product);
+                if (goods.name.equals(name)) return goods;
+            }
+        }
+        return null;
+    }
 }

@@ -3,19 +3,21 @@ package practice_1;
 import practice_1.task.*;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
 
         Product product1 = new Product();
-        product1.setBrand("Istochnik");
-        product1.setName("Bottle of water");
+        product1.setBrand("Источник");
+        product1.setName("Вода без газа");
         product1.setPrice(100.15);
         //System.out.println(product1.displayInfo());
 
-        Product product2 = new Product("Bottle of milk", 120.25);
-        product2.setBrand("Knyagininskoe");
+        Product product2 = new Product("Молоко", 120.25);
+        product2.setBrand("Княгининское");
         //System.out.println(product2.displayInfo());
 
         //product2.price = -60;
@@ -27,26 +29,26 @@ public class Main {
         //System.out.println(product3.displayInfo());
 
 
-        Product bottleOfWater1 = new BottleOfWater("Bottle1", 100, 2);
-        System.out.println(bottleOfWater1.displayInfo());
+        Product bottleOfWater1 = new BottleOfWater("Бутылка1", 100, 2);
+        //System.out.println(bottleOfWater1.displayInfo());
 
-        Product bottleOfMilk1 = new BottleOfMilk("Milk", 200, 1, 10);
-        System.out.println(bottleOfMilk1.displayInfo());
+        Product bottleOfMilk1 = new BottleOfMilk("Молоко1", 200, 1, 10);
+        //System.out.println(bottleOfMilk1.displayInfo());
 
-        Product bottleOfWater2 = new BottleOfWater("Bottle2", 100, 1);
-        System.out.println(bottleOfWater2.displayInfo());
+        Product bottleOfWater2 = new BottleOfWater("Бутылка2", 100, 1);
+        //System.out.println(bottleOfWater2.displayInfo());
 
-        Product bottleOfWater3 = new BottleOfWater("Bottle3", 100, 2);
-        System.out.println(bottleOfWater3.displayInfo());
+        Product bottleOfWater3 = new BottleOfWater("Бутылка3", 100, 2);
+        //System.out.println(bottleOfWater3.displayInfo());
 
-        Product bottleOfWater4 = new BottleOfWater("Bottle4", 100, 2);
-        System.out.println(bottleOfWater4.displayInfo());
+        Product bottleOfWater4 = new BottleOfWater("Бутылка4", 100, 2);
+        //System.out.println(bottleOfWater4.displayInfo());
 
-        Product chocolate1 = new Chocolate("Dobraya dusha", "Chocolate", 548, "black", "with nuts");
-        System.out.println(chocolate1.displayInfo());
+        Product chocolate1 = new Chocolate("Добрая душа", "Шоколад1", 548, "черный", "с орехами");
+        //System.out.println(chocolate1.displayInfo());
 
-        Product chocolate2 = new Chocolate("Babaevskiy", "Chocolate", 423, "white", "solid");
-        System.out.println(chocolate2.displayInfo());
+        Product chocolate2 = new Chocolate("Бабаевский", "Шоколад2", 423, "белый", "твердый");
+        //System.out.println(chocolate2.displayInfo());
 
 
         List<Product> products = new ArrayList<>();
@@ -59,26 +61,46 @@ public class Main {
         products.add(chocolate2);
 
 
+        //System.out.println(products);
+
+
         VendingMachine vendingMachine = new VendingMachine(products);
 
-        BottleOfWater bottleOfWaterRes = vendingMachine.getBottleOfWater("Bottle2", 1);
+//        BottleOfWater bottleOfWaterRes = vendingMachine.getBottleOfWater("Бутылка2", 1);
+//
+//        if (bottleOfWaterRes != null){
+//            System.out.println("\nВы купили: ");
+//            System.out.println(bottleOfWaterRes.displayInfo());
+//        }
+//        else {
+//            System.out.println("\nРезультат:\nТакой бутылки нет в автомате.");
+//        }
+//
+//        Chocolate chocolateRes = vendingMachine.getChocolate("Бабаевский", "Шоколад2");
+//
+//        if (chocolateRes != null){
+//            System.out.println("\nВы купили: ");
+//            System.out.println(chocolateRes.displayInfo());
+//        }
+//        else {
+//            System.out.println("\nРезультат:\nТакой шоколадки нет в автомате.");
+//        }
 
-        if (bottleOfWaterRes != null){
-            System.out.println("\nYou bought: ");
-            System.out.println(bottleOfWaterRes.displayInfo());
+
+
+        Product productRes = vendingMachine.getProduct("Молоко1");
+
+
+        if (productRes != null){
+            System.out.println("\nВы купили: ");
+            System.out.println(productRes.displayInfo());
         }
-        else {
-            System.out.println("\nResult:\nThere is no such bottle in the vending machine.");
+        else{
+            System.out.println("\nРезультат:\nТакого товара нет в автомате.");
         }
 
-        Chocolate chocolateRes = vendingMachine.getChocolate("Babaevskiy", "Chocolate");
-
-        if (chocolateRes != null){
-            System.out.println("\nYou bought: ");
-            System.out.println(chocolateRes.displayInfo());
-        }
-        else {
-            System.out.println("\nResult:\nThere is no such chocolate in the vending machine.");
-        }
+//        while (true){
+//
+//        }
     }
 }
