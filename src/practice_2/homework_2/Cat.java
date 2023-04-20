@@ -3,7 +3,7 @@ package practice_2.homework_2;
 public class Cat {
     private String name;
     private int appetite;
-    public static boolean satiety; // сытость
+    public static boolean satiety;
 
     public String getName() {
         return name;
@@ -15,10 +15,10 @@ public class Cat {
 
     public void isSatiety(boolean satiety) {
         if (satiety){
-            System.out.printf("%s сыт\n", name);
+            System.out.printf("%s is full.\n", name);
         }
         if (!satiety){
-            System.out.printf("%s голоден\n", name);
+            System.out.printf("%s is hungry.\n", name);
         }
     }
 
@@ -37,6 +37,6 @@ public class Cat {
     }
 
     public void eat() {
-        System.out.printf("Аппетит у %s %s гр. Кот есть.\n", name, appetite);
+        System.out.printf("%s's appetite is %s gr. The cat is trying to eat.\n", name, appetite);
     }
 }

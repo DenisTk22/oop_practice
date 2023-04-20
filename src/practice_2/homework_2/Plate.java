@@ -10,12 +10,12 @@ public class Plate {
     public boolean setFood(int food) {
         if (food >= 0) {
             this.food = food;
-            System.out.printf("В тарелке осталось %s гр.\n", food);
+            System.out.printf("In the plate now %s gr.\n", food);
             return true;
         }
         else{
             this.food = getFood();
-            System.out.printf("В тарелке осталось %s гр. Кот ничего не съел.\n", getFood());
+            System.out.printf("In the plate still %s gr. The cat ate nothing.\n", getFood());
             return false;
         }
     }
@@ -23,7 +23,7 @@ public class Plate {
     public void addFood(){
         if (food < fullPlate){
             food = fullPlate;
-            System.out.println("Тарелка наполнена!");
+            System.out.println("The plate is full now!");
         }
     }
 
@@ -31,6 +31,6 @@ public class Plate {
         this.food = food;
     }
     public void info() {
-        System.out.printf("В тарелке %s гр.\n", getFood());
+        System.out.printf("In the plate %s gr.\n", getFood());
     }
 }

@@ -3,12 +3,12 @@ package practice_2.homework_2;
 public class Main {
     public static void main(String[] args) {
 
-        Cat cat = new Cat("Барсик", 70, false);
+        Cat cat = new Cat("Barsik", 70, false);
 
         Cat[] cats = {
-                new Cat("Персик", 25, false),
-                new Cat("Вертолет", 65, false),
-                new Cat("Мурзик", 15, false),
+                new Cat("Persik", 25, false),
+                new Cat("Helicopter", 65, false),
+                new Cat("Murzik", 15, false),
         };
 
         Plate plate = new Plate(Plate.fullPlate);
