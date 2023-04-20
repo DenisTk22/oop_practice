@@ -4,21 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cb66ab6-83a8-4a76-8c54-c9b1eb4405fe" name="Changes" comment="отладка дз">
-      <change afterPath="$PROJECT_DIR$/src/practice_2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice_2/task/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice_2/task/Championship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice_2/task/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice_2/task/Obstacle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice_2/task/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice_2/task/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice_2/task/Track.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice_2/task/Wall.java" afterDir="false" />
+    <list default="true" id="8cb66ab6-83a8-4a76-8c54-c9b1eb4405fe" name="Changes" comment="отладка задач 2го семинара">
+      <change afterPath="$PROJECT_DIR$/src/practice_2/homework_2/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice_2/homework_2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice_2/homework_2/Plate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice_1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice_1/task/BottleOfMilk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice_1/task/BottleOfMilk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice_1/task/BottleOfWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice_1/task/BottleOfWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice_1/task/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice_1/task/VendingMachine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -64,7 +54,7 @@
       <recent name="C:\Users\Denis\Desktop\Обучение GB\2_programmer\workshop\oop\oop_practice\oop_practice\src\practice_1\task" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Championship">
+  <component name="RunManager" selected="Application.practice_2.homework_2.Main">
     <configuration name="Championship" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice_2.task.Championship" />
       <module name="oop_practice" />
@@ -104,8 +94,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="practice_2.homework_2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice_2.homework_2.Main" />
+      <module name="oop_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice_2.homework_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.practice_2.homework_2.Main" />
         <item itemvalue="Application.Championship" />
         <item itemvalue="Application.practice_2.Main" />
         <item itemvalue="Application.Main" />
@@ -128,11 +132,19 @@
       <option name="project" value="LOCAL" />
       <updated>1681671021271</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="отладка задач 2го семинара">
+      <created>1681926881178</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681926881178</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="отладка дз" />
-    <option name="LAST_COMMIT_MESSAGE" value="отладка дз" />
+    <MESSAGE value="отладка задач 2го семинара" />
+    <option name="LAST_COMMIT_MESSAGE" value="отладка задач 2го семинара" />
   </component>
 </project>
