@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cb66ab6-83a8-4a76-8c54-c9b1eb4405fe" name="Changes" comment="отладка задач домашнего задания ко 2му семинару">
-      <change afterPath="$PROJECT_DIR$/src/practice_3/task1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice_3/task2/Sample2.java" afterDir="false" />
+    <list default="true" id="8cb66ab6-83a8-4a76-8c54-c9b1eb4405fe" name="Changes" comment="добавил задачу 3го семинара">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice_3/task2/Sample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice_3/task2/Sample2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682004149272</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="добавил задачу 3го семинара">
+      <created>1682310167932</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682310167932</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -174,6 +180,7 @@
     <MESSAGE value="отладка задач 2го семинара" />
     <MESSAGE value="сделаны задачи домашнего задания ко 2му семинару" />
     <MESSAGE value="отладка задач домашнего задания ко 2му семинару" />
-    <option name="LAST_COMMIT_MESSAGE" value="отладка задач домашнего задания ко 2му семинару" />
+    <MESSAGE value="добавил задачу 3го семинара" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил задачу 3го семинара" />
   </component>
 </project>
