@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cb66ab6-83a8-4a76-8c54-c9b1eb4405fe" name="Changes" comment="сделаны задачи домашнего задания ко 2му семинару">
+    <list default="true" id="8cb66ab6-83a8-4a76-8c54-c9b1eb4405fe" name="Changes" comment="отладка задач домашнего задания ко 2му семинару">
+      <change afterPath="$PROJECT_DIR$/src/practice_3/task1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice_3/task2/Sample2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice_2/homework_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice_2/homework_2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice_2/homework_2/Plate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice_2/homework_2/Plate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,7 +53,7 @@
       <recent name="C:\Users\Denis\Desktop\Обучение GB\2_programmer\workshop\oop\oop_practice\oop_practice\src\practice_1\task" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.practice_2.homework_2.Main">
+  <component name="RunManager" selected="Application.Sample2">
     <configuration name="Championship" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice_2.task.Championship" />
       <module name="oop_practice" />
@@ -67,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice_1.Main" />
+    <configuration name="Sample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice_3.task2.Sample2" />
       <module name="oop_practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice_1.*" />
+          <option name="PATTERN" value="practice_3.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +106,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="practice_3.task1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice_3.task1.Main" />
+      <module name="oop_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice_3.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sample2" />
+        <item itemvalue="Application.practice_3.task1.Main" />
         <item itemvalue="Application.practice_2.homework_2.Main" />
         <item itemvalue="Application.Championship" />
         <item itemvalue="Application.practice_2.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -145,13 +159,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682003310109</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="отладка задач домашнего задания ко 2му семинару">
+      <created>1682004149272</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682004149272</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="отладка дз" />
     <MESSAGE value="отладка задач 2го семинара" />
     <MESSAGE value="сделаны задачи домашнего задания ко 2му семинару" />
-    <option name="LAST_COMMIT_MESSAGE" value="сделаны задачи домашнего задания ко 2му семинару" />
+    <MESSAGE value="отладка задач домашнего задания ко 2му семинару" />
+    <option name="LAST_COMMIT_MESSAGE" value="отладка задач домашнего задания ко 2му семинару" />
   </component>
 </project>
