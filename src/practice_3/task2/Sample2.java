@@ -8,10 +8,7 @@ import java.util.Random;
 public class Sample2 {
 
     public static Random random = new Random();
-
-    //дз2 - Доработать метод generateEmployee(). Метод должен возвращать
-    //любого случайного сотрудника разного типа (Worker, Freelancer) - done
-
+    
     //метод generateEmployee() для формирования случайного рабочего
     public static Employee generateEmployee(){
 
