@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cb66ab6-83a8-4a76-8c54-c9b1eb4405fe" name="Changes" comment="добавил домашнее задание 3го семинара">
-      <change afterPath="$PROJECT_DIR$/src/practice_4/task1/Sample01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice_4/task2/Homework_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice_4/task2/Sample2.java" afterDir="false" />
+    <list default="true" id="8cb66ab6-83a8-4a76-8c54-c9b1eb4405fe" name="Changes" comment="добавил задачу 4го семинара">
+      <change afterPath="$PROJECT_DIR$/src/practice_4/task2/Homework_4_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice_2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice_3/task2/Sample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice_3/task2/Sample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice_4/task2/Homework_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice_4/task2/Homework_4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +53,33 @@
       <recent name="C:\Users\Denis\Desktop\Обучение GB\2_programmer\workshop\oop\oop_practice\oop_practice\src\practice_1\task" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.practice_4.task2.Sample2">
+  <component name="RunManager" selected="Application.Homework_04">
+    <configuration name="Homework_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task.homework_04.Homework_04" />
+      <module name="oop_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task.homework_04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Homework_4_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice_4.task2.Homework_4_1" />
+      <module name="oop_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice_4.task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Sample01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice_4.task1.Sample01" />
       <module name="oop_practice" />
@@ -83,32 +106,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practice_2.homework_2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice_2.homework_2.Main" />
-      <module name="oop_practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice_2.homework_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="practice_3.task1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice_3.task1.Main" />
-      <module name="oop_practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice_3.task1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="practice_4.task2.Sample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice_4.task2.Sample2" />
       <module name="oop_practice" />
@@ -124,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Homework_04" />
+        <item itemvalue="Application.Homework_4_1" />
         <item itemvalue="Application.practice_4.task2.Sample2" />
         <item itemvalue="Application.Sample01" />
         <item itemvalue="Application.Sample2" />
-        <item itemvalue="Application.practice_3.task1.Main" />
-        <item itemvalue="Application.practice_2.homework_2.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682357174891</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="добавил задачу 4го семинара">
+      <created>1682537429789</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682537429789</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -193,6 +197,7 @@
     <MESSAGE value="отладка задач домашнего задания ко 2му семинару" />
     <MESSAGE value="добавил задачу 3го семинара" />
     <MESSAGE value="добавил домашнее задание 3го семинара" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил домашнее задание 3го семинара" />
+    <MESSAGE value="добавил задачу 4го семинара" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил задачу 4го семинара" />
   </component>
 </project>
