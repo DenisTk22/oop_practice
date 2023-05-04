@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cb66ab6-83a8-4a76-8c54-c9b1eb4405fe" name="Changes" comment="добавил задачу 4го семинара">
-      <change afterPath="$PROJECT_DIR$/src/practice_4/task2/Homework_4_1.java" afterDir="false" />
+    <list default="true" id="8cb66ab6-83a8-4a76-8c54-c9b1eb4405fe" name="Changes" comment="отладка домашней задачи 4го семинара">
+      <change afterPath="$PROJECT_DIR$/src/seminar_5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_5/models/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_5/models/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_5/models/TableModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_5/presenters/BookingPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_5/presenters/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_5/presenters/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_5/presenters/ViewObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_5/views/BookingView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice_4/task2/Homework_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice_4/task2/Homework_4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +60,7 @@
       <recent name="C:\Users\Denis\Desktop\Обучение GB\2_programmer\workshop\oop\oop_practice\oop_practice\src\practice_1\task" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Homework_04">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Homework_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task.homework_04.Homework_04" />
       <module name="oop_practice" />
@@ -80,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sample01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice_4.task1.Sample01" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seminar_5.Main" />
       <module name="oop_practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice_4.task1.*" />
+          <option name="PATTERN" value="seminar_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice_3.task2.Sample2" />
+    <configuration name="Sample01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice_4.task1.Sample01" />
       <module name="oop_practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice_3.task2.*" />
+          <option name="PATTERN" value="practice_4.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Homework_04" />
         <item itemvalue="Application.Homework_4_1" />
         <item itemvalue="Application.practice_4.task2.Sample2" />
         <item itemvalue="Application.Sample01" />
-        <item itemvalue="Application.Sample2" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682537429789</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="отладка домашней задачи 4го семинара">
+      <created>1683222340198</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683222340198</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -198,6 +212,7 @@
     <MESSAGE value="добавил задачу 3го семинара" />
     <MESSAGE value="добавил домашнее задание 3го семинара" />
     <MESSAGE value="добавил задачу 4го семинара" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил задачу 4го семинара" />
+    <MESSAGE value="отладка домашней задачи 4го семинара" />
+    <option name="LAST_COMMIT_MESSAGE" value="отладка домашней задачи 4го семинара" />
   </component>
 </project>
