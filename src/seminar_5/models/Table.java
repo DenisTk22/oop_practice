@@ -10,7 +10,7 @@ public class Table {
     /**
      * Коллекция резервирования столиков
      */
-    private final Collection<Reservation> reservations = new ArrayList<>();
+    private final Collection<Reservation> reservations = new ArrayList<>(); //
 
     public int getNo(){
         return no;
@@ -23,7 +23,7 @@ public class Table {
         no = ++counter;
     }
 
-    // информация по столику для вывода в консоль
+    // пеерзаписть метода toString(), информация по столику для вывода в консоль в новом формате
     @Override
     public String toString() {
         return String.format("Столик #%d", no);
