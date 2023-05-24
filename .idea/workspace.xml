@@ -4,24 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cb66ab6-83a8-4a76-8c54-c9b1eb4405fe" name="Changes" comment="добавление домашней задачи 5го семинара">
-      <change afterPath="$PROJECT_DIR$/src/seminar_6/isp/Payable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_6/lsp/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_6/lsp/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_6/lsp/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_6/ocp1/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_6/ocp1/ShapeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_6/ocp1/SimpleDrawer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_6/srp1/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_6/srp1/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_6/srp1/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_6/srp1/SquareDrawer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_6/srp2/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_6/srp2/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_6/srp2/SaverToJson.java" afterDir="false" />
+    <list default="true" id="8cb66ab6-83a8-4a76-8c54-c9b1eb4405fe" name="Changes" comment="добавлено решение домашней задачи 6го семинара">
+      <change afterPath="$PROJECT_DIR$/src/seminar_7/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_7/adapter/AdapterST500Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_7/adapter/MS200.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_7/adapter/MeteoSenser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_7/adapter/MeteoSensorSimple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_7/adapter/MeteoStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_7/adapter/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_7/adapter/ST500info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_7/adapter/SensorTemperature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_7/builder/MailMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_7/builder/MailMessageBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_7/builder/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_7/observer/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_7/observer/JobAgency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_7/observer/Master.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_7/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_7/observer/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_7/observer/Publisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_7/observer/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_7/singleton/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_7/singleton/Settings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seminar_5/models/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar_5/models/Reservation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seminar_5/models/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar_5/models/Table.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,26 +72,13 @@
       <recent name="C:\Users\Denis\Desktop\Обучение GB\2_programmer\workshop\oop\oop_practice\oop_practice\src\practice_1\task" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.seminar_6.srp2.Program">
+  <component name="RunManager" selected="Application.seminar_7.observer.Program">
     <configuration name="Homework_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task.homework_04.Homework_04" />
       <module name="oop_practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="task.homework_04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Homework_4_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice_4.task2.Homework_4_1" />
-      <module name="oop_practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice_4.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,13 +125,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="seminar_7.observer.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seminar_7.observer.Program" />
+      <module name="oop_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar_7.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.seminar_7.observer.Program" />
         <item itemvalue="Application.seminar_6.srp2.Program" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Homework_04" />
-        <item itemvalue="Application.Homework_4_1" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683224031095</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="добавлено решение домашней задачи 6го семинара">
+      <created>1684770970709</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684770970709</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -228,6 +240,7 @@
     <MESSAGE value="добавил задачу 4го семинара" />
     <MESSAGE value="отладка домашней задачи 4го семинара" />
     <MESSAGE value="добавление домашней задачи 5го семинара" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавление домашней задачи 5го семинара" />
+    <MESSAGE value="добавлено решение домашней задачи 6го семинара" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлено решение домашней задачи 6го семинара" />
   </component>
 </project>
