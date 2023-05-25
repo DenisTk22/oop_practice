@@ -4,29 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cb66ab6-83a8-4a76-8c54-c9b1eb4405fe" name="Changes" comment="добавлено решение домашней задачи 6го семинара">
-      <change afterPath="$PROJECT_DIR$/src/seminar_7/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_7/adapter/AdapterST500Info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_7/adapter/MS200.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_7/adapter/MeteoSenser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_7/adapter/MeteoSensorSimple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_7/adapter/MeteoStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_7/adapter/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_7/adapter/ST500info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_7/adapter/SensorTemperature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_7/builder/MailMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_7/builder/MailMessageBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_7/builder/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_7/observer/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_7/observer/JobAgency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_7/observer/Master.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_7/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_7/observer/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_7/observer/Publisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_7/observer/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_7/singleton/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar_7/singleton/Settings.java" afterDir="false" />
+    <list default="true" id="8cb66ab6-83a8-4a76-8c54-c9b1eb4405fe" name="Changes" comment="добавлены задачи 6го семинара">
+      <change afterPath="$PROJECT_DIR$/src/seminar_7/observer/Junior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar_7/observer/Vacancy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminar_7/adapter/AdapterST500Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar_7/adapter/AdapterST500Info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminar_7/adapter/MS200.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar_7/adapter/MS200.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminar_7/adapter/MeteoSenser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar_7/adapter/MeteoSensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminar_7/adapter/MeteoStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar_7/adapter/MeteoStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminar_7/adapter/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar_7/adapter/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminar_7/adapter/ST500info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar_7/adapter/ST500info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminar_7/observer/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar_7/observer/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminar_7/observer/JobAgency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar_7/observer/JobAgency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminar_7/observer/Master.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar_7/observer/Master.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminar_7/observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar_7/observer/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminar_7/observer/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar_7/observer/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminar_7/observer/Publisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar_7/observer/Publisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminar_7/observer/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar_7/observer/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +54,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Denis/Desktop/Обучение GB/2_programmer/workshop/oop/oop_practice/oop_practice/src/practice_1&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Denis/Desktop/Обучение GB/2_programmer/workshop/web/web-tech&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -73,19 +67,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.seminar_7.observer.Program">
-    <configuration name="Homework_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task.homework_04.Homework_04" />
-      <module name="oop_practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task.homework_04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="seminar_5.Main" />
       <module name="oop_practice" />
@@ -125,6 +106,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="seminar_7.adapter.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seminar_7.adapter.Program" />
+      <module name="oop_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar_7.adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="seminar_7.observer.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="seminar_7.observer.Program" />
       <module name="oop_practice" />
@@ -141,10 +135,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.seminar_7.observer.Program" />
+        <item itemvalue="Application.seminar_7.adapter.Program" />
         <item itemvalue="Application.seminar_6.srp2.Program" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Homework_04" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684770970709</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="добавлены задачи 6го семинара">
+      <created>1684944390595</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684944390595</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -241,6 +242,7 @@
     <MESSAGE value="отладка домашней задачи 4го семинара" />
     <MESSAGE value="добавление домашней задачи 5го семинара" />
     <MESSAGE value="добавлено решение домашней задачи 6го семинара" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлено решение домашней задачи 6го семинара" />
+    <MESSAGE value="добавлены задачи 6го семинара" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлены задачи 6го семинара" />
   </component>
 </project>

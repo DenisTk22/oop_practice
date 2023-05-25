@@ -2,7 +2,6 @@ package seminar_7.observer;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.OptionalDouble;
 
 /**
  * Агенство по поиску сотрудников
@@ -19,9 +18,9 @@ public class JobAgency implements Publisher {
 
     @Override
     public void removeObserver(Observer observer) {
-
         observers.remove(observer);
     }
+
 
     /**
      * Реализация рассылки сообщений
@@ -29,9 +28,9 @@ public class JobAgency implements Publisher {
      * @param salary
      */
     @Override
-    public void sendOffer(String nameCompany, double salary) {
+    public void sendOffer(String nameCompany, double salary, Vacancy vacancy) {
         for (Observer observer : observers){
-            observer.receiveOffer(nameCompany, salary);
+            observer.receiveOffer(nameCompany, salary, vacancy);
         }
     }
 }

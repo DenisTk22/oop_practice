@@ -1,10 +1,13 @@
 package seminar_7.adapter;
 
-public class AdapterST500Info implements MeteoSenser{
+public class AdapterST500Info implements MeteoSensor{
+
 
     private final SensorTemperature sensorTemperature;
 
-    public AdapterST500Info(SensorTemperature sensorTemperature);
+    public AdapterST500Info(SensorTemperature sensorTemperature){
+        this.sensorTemperature = sensorTemperature;
+    }
 
     @Override
     public int getId() {
@@ -18,11 +21,11 @@ public class AdapterST500Info implements MeteoSenser{
 
     @Override
     public double getHumidity() {
-        throw new RuntimeException("Метод нельзя применить");
+        throw new RuntimeException("Получить влажность с этого датчика нельзя");
     }
 
     @Override
     public double getPressure() {
-        throw new RuntimeException("Метод нельзя применить");
+        throw new RuntimeException("Получить давление с этого датчика нельзя");
     }
 }

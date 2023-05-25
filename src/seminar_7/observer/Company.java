@@ -12,6 +12,7 @@ public class Company {
     private double maxSalary;
     private Publisher jobAgency;
 
+
     public Company(String nameCompany, double maxSalary, Publisher jobAgency) {
         this.nameCompany = nameCompany;
         this.maxSalary = maxSalary;
@@ -20,12 +21,11 @@ public class Company {
     }
 
 
-    public void needEmployee(){
+    public void needEmployee(Vacancy vacancy){
         double salary = random.nextDouble(3000, maxSalary);
-        jobAgency.sendOffer(nameCompany, salary);
+        jobAgency.sendOffer(nameCompany, salary, vacancy);
         /**
-         * добавить вкансию
+         * добавить вакансию
          */
     }
-
 }
